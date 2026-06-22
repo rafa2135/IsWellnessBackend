@@ -10,4 +10,8 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "sqlalchemy>=2.0.51",
     "uvicorn>=0.49.0",
+    "pwdlib[bcrypt,argon2]>=0.3.0",
+    "pyjwt>=2.10.0",
+    "email-validator>=2.2.0",
+    "python-multipart>=0.0.18",
 ]

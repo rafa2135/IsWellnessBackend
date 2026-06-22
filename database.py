@@ -13,7 +13,6 @@ if not DATABASE_URL:    #validacion
 engine = create_engine(
     DATABASE_URL,
     echo=True,#ver query in la terminal
-    connect_args={"ssl":{}}
 )
 
 sessionLocal = sessionmaker(autocommit = False, autoflush=False, bind=engine)
