@@ -9,4 +9,3 @@ wheels/
 .env
 # Virtual environments
 .venv
-ca.pem
